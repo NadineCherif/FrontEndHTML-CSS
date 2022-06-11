@@ -102,11 +102,10 @@ section .wave::before {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.4; /*l'ombre ldark mta wave*/
+  opacity: 0.4;
   animation: animate-reverse 20s linear infinite;
 }
 @keyframes animate {
-  /*hethy l bsh t7arkhom*/
   0% {
     background-position: 0;
   }
@@ -116,7 +115,7 @@ section .wave::before {
 }
 @keyframes animate-reverse {
   0% {
-    background-position: 1360px; /*hethy width mta wave*/
+    background-position: 1360px;
   }
   100% {
     background-position: 0;
@@ -141,8 +140,8 @@ section .wave::before {
   color: white;
 }
 .eye {
-  position: absolute; /*lhne hatina hdhe pass*/
+  position: absolute;
 }
 #h1 {
-  display: none; /*eye tnahat*/
+  display: none;
 }
