@@ -28,8 +28,8 @@
       
     <div class="User">
        <input id="myInput" type="password"  placeholder="Password">
-       <span class="eye" onclick="MyFunction()"> <!--hne appel mta function onclick-->
-        <i id="h1" class="fa fa-eye"></i> <!--hne code mta eye mn site font awesome-->
+       <span class="eye" onclick="MyFunction()">
+        <i id="h1" class="fa fa-eye"></i>
         <i id="h2" class="fa fa-eye-slash"></i>
      </span>
      </div>
@@ -43,18 +43,18 @@
     </form>
 </div>
 <script> 
-    //function ala eye password 
+    //function eye password 
     function MyFunction(){
         var x=document.getElementById("myInput"); //id pass : myInput
         var y=document.getElementById("h1");//eye
         var z=document.getElementById("h2");//eye-slash
 
-        if(x.type==='password'){ //condition if type mteeha egal pass winput mtey egal text  
+        if(x.type==='password'){ 
             x.type="text";
-            y.style.display="block"; //eye block
-            z.style.display="none"; //eye-slash bsh tetnaha
+            y.style.display="block";
+            z.style.display="none";
         }
-        else{ //then condition inverse
+        else{
             x.type="password";
             y.style.display="none"; 
             z.style.display="block";
